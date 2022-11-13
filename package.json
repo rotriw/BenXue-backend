@@ -1,0 +1,19 @@
+{
+	"name": "backend-ng",
+	"version": "1.0.0",
+	"description": "BackendNG",
+	"main": "index.js",
+	"author": "RotriwDEV",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.20.1",
+		"chalk": "3",
+		"express": "^4.18.2",
+		"log4js": "^6.7.0",
+		"node-fetch-commonjs": "^3.2.4"
+	},
+	"scripts": {
+		"build": "yarn && cd running && node build.js",
+		"cs": "cd running && node index.js"
+	}
+}

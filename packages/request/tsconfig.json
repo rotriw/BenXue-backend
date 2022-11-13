@@ -1,0 +1,31 @@
+{
+    "include": [
+		"*",
+    ],
+	"exclude": [
+		
+	],
+    "compilerOptions": {
+        "module": "CommonJS",
+        "outDir": "./",
+        "allowJs": false,
+        "checkJs": false,
+        "removeComments": false,
+        "noEmit": false,
+        "noEmitOnError": false,
+        "sourceMap": false,
+        "strict": false,
+        "alwaysStrict": false,
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "strictNullChecks": true,
+		"strictBindCallApply": false,
+        "strictFunctionTypes": false,
+        "strictPropertyInitialization": false,
+        "noFallthroughCasesInSwitch": false,
+        "noImplicitReturns": false,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+		"allowUnreachableCode": false
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"name": "request",
+	"version": "1.0.0",
+	"description": "request to zhixue. getdata",
+	"main": "index.js",
+	"author": "smallfang<smallfang233@qq.com>",
+	"license": "MIT",
+	"dependencies": {
+		"crypto": "^1.0.1",
+		"node-fetch": "^3.3.0",
+		"node-fetch-commonjs": "^3.2.4",
+		"querystring": "^0.2.1",
+		"url": "^0.11.0",
+		"uuid": "^9.0.0"
+	},
+	"scripts": {
+		"build": "yarn && tsc"
+	}
+}
