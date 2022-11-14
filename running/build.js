@@ -9,9 +9,7 @@ for (const package of packages) {
 	try {
 		ch.exec(command, (err, stdout, stderr) => {
 			if (err) {
-				
 				console.log(chalk.red(chalk.bold(package) + "组件编译失败"));
-				
 				console.log(err);
 				console.log(`stdout: ${stdout}`);
 				return;
