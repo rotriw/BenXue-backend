@@ -8,6 +8,7 @@
     "compilerOptions": {
         "module": "CommonJS",
         "outDir": "./",
+ 	"skipLibCheck": true,
         "allowJs": false,
         "checkJs": false,
         "removeComments": false,
