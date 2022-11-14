@@ -7,8 +7,9 @@
 	],
     "compilerOptions": {
         "module": "CommonJS",
-        "outDir": "./",
- 	"skipLibCheck": true,
+        "target": "ES6",
+		"outDir": "./",
+		"skipLibCheck": true,
         "allowJs": false,
         "checkJs": false,
         "removeComments": false,
