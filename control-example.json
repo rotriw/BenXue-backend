@@ -1,0 +1,5 @@
+{
+    "port": "7996",
+    "db": "<Your Mongo Client>",
+	"dbname": "benxue"
+}

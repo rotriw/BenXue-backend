@@ -20,14 +20,15 @@ export module zhixue {
             token: string;
             childId: string;
             user: {
-                name: string;
+				name: string;
+				userid: string;
             };
             class: {
                 name: string;
             };
             school: {
                 name: string;
-            };
+			};
         };
 	}
 	
@@ -161,7 +162,8 @@ export module zhixue {
                     token: body.result.token,
                     childId: body.result.id,
                     user: {
-                        name: body.result.name,
+						name: body.result.name,
+						userid: username,
                     },
                     class: {
                         name: body.result.clazzInfo.name,
